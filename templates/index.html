@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+  </style>
+  <body>
+    <main>
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <h1>LO Calculator</h1>
+      <section>
+        <p>Calculate qualification for your clients without triggering PENCIL</p>
+        </section>
+
+          <section>
+        <h2> Client Name </h2>
+            <form action="/client_name" action="." method="post">
+              <input type="text" name="client_name" placeholder="name" required>
+              <button type="submit"> Submit </button>
+            </form>
+            </section>
+
+        <h2> Credit </h2>
+            <form action="/credit" method="post">
+              <input type="number" name="credit" placeholder="estimated credit score" required>
+            </form>
+            <p> For more information on how credit pulls can impace your clients' scores
+            <a href="https://www.forbes.com/advisor/credit-score/soft-credit-check-vs-hard-credit-check/"
+            target="_blank">click here</a>
+            </p>
+          <section>
+        <h3>Max Purchase Price:</h3>
+          <form action="/purch_price_and_down" method="post">
+          <input type="text" name="max_purch_price" placeholder="max purch price" required>
+          </form>
+
+        <h3>Down Payment:</h3>
+              <form action="/purch_price_and_down" method="post">
+                <label><input type="radio" name="down_payment_type" value="percent"> percent</label>
+                <br>
+                <label><input type="radio" name="down_payment_type" value="dollars"> dollar amount</label>
+                <br>
+          <input type="text" name="down_pmnt" placeholder="down payment amount" required>
+                <button type="submit"> Submit</button>
+                </form>
+        </section>
+    </main>
+  </body>
+</html>
