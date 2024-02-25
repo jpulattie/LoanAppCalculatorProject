@@ -1,6 +1,7 @@
 
 import zmq
 
+#test
 context = zmq.Context()
 
 #  Socket to talk to server
