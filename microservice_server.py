@@ -1,11 +1,7 @@
 import random
 import zmq
 
-<<<<<<< HEAD
-#test
 
-=======
->>>>>>> origin/master
 def microservice(toop=None):
     global random_num
     if toop is None:
