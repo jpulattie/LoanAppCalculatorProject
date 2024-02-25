@@ -220,5 +220,443 @@
   },
   {
     "down payment": 25000
+  },
+  {
+    "client name": "Josh Pulattie"
+  },
+  {
+    "credit score": "720"
+  },
+  {
+    "purchase price": "475500"
+  },
+  {
+    "down payment type": "percent"
+  },
+  {
+    "down payment": 23775
+  },
+  {
+    "client name": "Josh Pulattie"
+  },
+  {
+    "credit score": "600"
+  },
+  {
+    "purchase price": "250000"
+  },
+  {
+    "down payment type": "dollars"
+  },
+  {
+    "down payment": 27000
+  },
+  {
+    "purchase price": "250000"
+  },
+  {
+    "down payment type": "dollars"
+  },
+  {
+    "down payment": 32000
+  },
+  {
+    "purchase price": "250000"
+  },
+  {
+    "down payment type": "dollars"
+  },
+  {
+    "down payment": 27000
+  },
+  {
+    "client name": "Josh"
+  },
+  {
+    "credit score": "720"
+  },
+  {
+    "purchase price": "500000"
+  },
+  {
+    "down payment type": "percent"
+  },
+  {
+    "down payment": 25000
+  },
+  {
+    "purchase price": "500000"
+  },
+  {
+    "down payment type": "dollars"
+  },
+  {
+    "down payment": 50000
+  },
+  {
+    "purchase price": "500000"
+  },
+  {
+    "down payment type": "percent"
+  },
+  {
+    "down payment": 275000000
+  },
+  {
+    "client name": "Josh"
+  },
+  {
+    "credit score": "720"
+  },
+  {
+    "purchase price": "275000"
+  },
+  {
+    "down payment type": "dollars"
+  },
+  {
+    "down payment": 27500
+  },
+  {
+    "purchase price": "275000"
+  },
+  {
+    "down payment type": "percent"
+  },
+  {
+    "down payment": 27500
+  },
+  {
+    "purchase price": "27500000"
+  },
+  {
+    "down payment type": "percent"
+  },
+  {
+    "down payment": 2750000
+  },
+  {
+    "client name": "Josh "
+  },
+  {
+    "credit score": "720"
+  },
+  {
+    "client name": "Josh "
+  },
+  {
+    "client name": "Josh "
+  },
+  {
+    "client name": "Josh"
+  },
+  {
+    "client name": "Josh"
+  },
+  {
+    "client name": "Josh"
+  },
+  {
+    "client name": "Josh"
+  },
+  {
+    "credit score": "720"
+  },
+  {
+    "purchase price": "27500000"
+  },
+  {
+    "down payment type": null
+  },
+  {
+    "purchase price": "275000"
+  },
+  {
+    "down payment type": null
+  },
+  {
+    "client name": "Josh"
+  },
+  {
+    "client name": "Josh"
+  },
+  {
+    "credit score": "720"
+  },
+  {
+    "purchase price": "500000"
+  },
+  {
+    "down payment type": null
+  },
+  {
+    "purchase price": "500000"
+  },
+  {
+    "down payment type": null
+  },
+  {
+    "client name": "Josh"
+  },
+  {
+    "credit score": "720"
+  },
+  {
+    "client name": "Josh"
+  },
+  {
+    "credit score": "720"
+  },
+  {
+    "client name": "Josh"
+  },
+  {
+    "credit score": "720"
+  },
+  {
+    "purchase price": "500000"
+  },
+  {
+    "down payment type": null
+  },
+  {
+    "purchase price": "500000"
+  },
+  {
+    "down payment type": null
+  },
+  {
+    "client name": "josh"
+  },
+  {
+    "credit score": "720"
+  },
+  {
+    "down payment type": null
+  },
+  {
+    "client name": "Josh"
+  },
+  {
+    "credit score": "720"
+  },
+  {
+    "purchase price": "500000"
+  },
+  {
+    "down payment type": "percent"
+  },
+  {
+    "client name": "josh"
+  },
+  {
+    "credit score": "720"
+  },
+  {
+    "purchase price": "500000"
+  },
+  {
+    "down payment type": "percent"
+  },
+  {
+    "client name": "Josh"
+  },
+  {
+    "credit score": "720"
+  },
+  {
+    "purchase price": "500000"
+  },
+  {
+    "down payment type": "percent"
+  },
+  {
+    "down payment": 50000
+  },
+  {
+    "purchase price": "500000"
+  },
+  {
+    "client name": "Josh"
+  },
+  {
+    "credit score": "720"
+  },
+  {
+    "purchase price": "500,000.00"
+  },
+  {
+    "down payment type": "percent"
+  },
+  {
+    "client name": "Josh"
+  },
+  {
+    "credit score": "720"
+  },
+  {
+    "purchase price": 500000
+  },
+  {
+    "down payment type": "dollars"
+  },
+  {
+    "down payment": 25000
+  },
+  {
+    "purchase price": "500000"
+  },
+  {
+    "client name": "Josh"
+  },
+  {
+    "credit score": "720"
+  },
+  {
+    "purchase price": 500000
+  },
+  {
+    "down payment type": "percent"
+  },
+  {
+    "down payment": 25000
+  },
+  {
+    "purchase price": "500000"
+  },
+  {
+    "client name": "Josh"
+  },
+  {
+    "credit score": "720"
+  },
+  {
+    "purchase price": 500000
+  },
+  {
+    "down payment type": "percent"
+  },
+  {
+    "down payment": 25000
+  },
+  {
+    "purchase price": "500000"
+  },
+  {
+    "client name": "Josh"
+  },
+  {
+    "credit score": "720"
+  },
+  {
+    "purchase price": 275000
+  },
+  {
+    "down payment type": "percent"
+  },
+  {
+    "down payment": 13750
+  },
+  {
+    "purchase price": "275000"
+  },
+  {
+    "client name": "Josh"
+  },
+  {
+    "credit score": "720"
+  },
+  {
+    "down payment type": "percent"
+  },
+  {
+    "purchase price": 500000
+  },
+  {
+    "down payment type": "percent"
+  },
+  {
+    "down payment": 25000
+  },
+  {
+    "purchase price": "500000"
+  },
+  {
+    "client name": "Josh"
+  },
+  {
+    "credit score": "720"
+  },
+  {
+    "purchase price": null
+  },
+  {
+    "down payment type": "percent"
+  },
+  {
+    "client name": "Josh"
+  },
+  {
+    "credit score": "720"
+  },
+  {
+    "purchase price": null
+  },
+  {
+    "purchase price": null
+  },
+  {
+    "purchase price": null
+  },
+  {
+    "client name": "Josh"
+  },
+  {
+    "credit score": "720"
+  },
+  {
+    "purchase price": null
+  },
+  {
+    "purchase price": null
+  },
+  {
+    "purchase price": null
+  },
+  {
+    "purchase price": null
+  },
+  {
+    "purchase price": null
+  },
+  {
+    "client name": "Josh"
+  },
+  {
+    "credit score": "720"
+  },
+  {
+    "down payment type": "percent"
+  },
+  {
+    "down payment": 50000
+  },
+  {
+    "purchase price": "500000"
+  },
+  {
+    "client name": "Josh Pulattie"
+  },
+  {
+    "credit score": "720"
+  },
+  {
+    "down payment type": "percent"
+  },
+  {
+    "down payment": 50000
+  },
+  {
+    "purchase price": "500000"
   }
 ]

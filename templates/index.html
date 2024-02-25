@@ -24,14 +24,17 @@
             <form action="/client_name" action="." method="post">
               <input type="text" name="client_name" placeholder="name" required>
               <button type="submit"> Submit </button>
-            </form>
+                </form>
+              <p>{{client_name}}</p>
             </section>
 
         <h2> Credit </h2>
             <form action="/credit" method="post">
               <input type="number" name="credit" placeholder="estimated credit score" required>
             </form>
-            <p> For more information on how credit pulls can impace your clients' scores
+            <p>Client Credit Score - {{credit_score}}</p>
+        <p> ** this is only an estimate and may not be an accurate score for qualification **</p>
+            <p> For more information on how credit pulls can impact your clients' scores
             <a href="https://www.forbes.com/advisor/credit-score/soft-credit-check-vs-hard-credit-check/"
             target="_blank">click here</a>
             </p>
@@ -39,17 +42,53 @@
         <h3>Max Purchase Price:</h3>
           <form action="/purch_price_and_down" method="post">
           <input type="text" name="max_purch_price" placeholder="max purch price" required>
+              <button type="submit"> Submit</button>
+
           </form>
 
+              <p> Purchase Price: {{purchase_price}}</p>
+
         <h3>Down Payment:</h3>
-              <form action="/purch_price_and_down" method="post">
+              <form action="/down" method="post">
                 <label><input type="radio" name="down_payment_type" value="percent"> percent</label>
                 <br>
                 <label><input type="radio" name="down_payment_type" value="dollars"> dollar amount</label>
                 <br>
           <input type="text" name="down_pmnt" placeholder="down payment amount" required>
+                      <input type="hidden" name="purchase_price" value="{{ purchase_price }}">
+
                 <button type="submit"> Submit</button>
                 </form>
+              <p> Down Payment {{down}} - Down Payment Percent {{down_percent}}</p>
+        </section>
+        <h3> Income </h3>
+            <form action="/income" method="post">
+                <p> Amount: {{income_amount}}</p>
+                <input type="number" name="amount" placeholder="dollar amount">
+            <form>
+                <label><input type="radio" name="income" value="year"> per year</label>
+                <label><input type="radio" name="income" value="month"> per month</label>
+                <label><input type="radio" name="income" value="hour">per hour</label>
+                <button type="submit"> Submit</button>
+            </form>
+
+
+        <section>
+            <h3> Debts </h3>
+            <form action="/debt" method="post">
+                <p> input total amount owed on each credit card</p>
+                <label><input type="text" name="credit_card1"  placeholder="card 1"> credit card</label>
+                <label><input type="text" name="credit_card2"  placeholder="card 2"> credit card</label>
+                <br>
+                <label><input type="text" name="credit_card3"  placeholder="card 3"> credit card</label>
+                <label><input type="text" name="credit_card4"  placeholder="card 4"> credit card</label>
+                <br>
+                <label><input type="text" name="credit_card5"  placeholder="card 5"> credit card</label>
+                <label><input type="text" name="credit_card6"  placeholder="card 6"> credit card</label>
+                <button type="submit">Submit Cards</button>
+
+            </form>
+
         </section>
     </main>
   </body>
