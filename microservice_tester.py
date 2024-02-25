@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 import zmq
 
 #test
+=======
+
+import zmq
+>>>>>>> origin/master
 
 context = zmq.Context()
 
