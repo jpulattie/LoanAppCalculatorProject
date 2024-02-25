@@ -5,9 +5,12 @@ Microservice Server is a Python random number generator.
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install zmq
-''' 
+
+```
+
 pip install zmq
-'''
+
+```
 
 ## Usage
 
@@ -17,7 +20,7 @@ To use the server properly, send to the socket an encoded tuple with a 1 or 2 as
 
 for example (1, 'string') could be used in this manner
 
-'''
+```
 import zmq
 
 context = zmq.Context()
@@ -31,7 +34,7 @@ def request(toop):
     decoded = message.decode()
     return decoded
 print(request((1,"string")))
-'''
+```
 
 ## License
 
