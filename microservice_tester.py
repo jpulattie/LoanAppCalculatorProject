@@ -1,4 +1,3 @@
-
 import zmq
 
 #test3
@@ -19,4 +18,5 @@ def request(toop):
     decoded = message.decode()
     #print("Received reply %s [ %s ]" % (toop_bytes, decoded))
     return decoded
+
 print(request((1,"BOTW")))

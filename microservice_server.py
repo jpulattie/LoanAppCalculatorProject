@@ -10,10 +10,10 @@ def microservice(toop=None):
         return random_num
     else:
         if toop[0] == 1:
-            random_num = random.randrange(1, 389)
+            random_num = random.randrange(1, 390)
             print(random_num)
-        elif toop[1] == 2:
-            random_num = random.randrange(1, 509)
+        elif toop[0] == 2:
+            random_num = random.randrange(1, 510)
         else:
             random_num = "Invalid input. Please try again."
         return random_num
